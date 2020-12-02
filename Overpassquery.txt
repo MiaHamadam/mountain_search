@@ -1,0 +1,5 @@
+//OverPassUI　実行コマンド
+[out:csv(::lat,::lon,"name","ele")];
+area[name~"近畿"];
+nwr(area)[natural = peak];
+out;
